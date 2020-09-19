@@ -24,9 +24,17 @@ public class Item {
   //attempting to make an Item
 }
 
+public static void GameStartUp() {
+  //Sword 
+  new Item(){
+    itemName = "Sword", 
+    itemDescription = "Sharpy and hurty"};
+}
+
 //This class here is the main one, and will stay. vvv
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine("Welcome to 'Text Adventure'");
+
   }
 }
