@@ -5,17 +5,16 @@ using System.Text.RegularExpressions;
 
 //The class for the player
 public class Player {
-  public string playerName;
-  public int playerHealth;
-  public int playerSpeed;
-  public int playerStrength;
-  //Yayy, my first time using classes.
-  public static void SpawnPlayer() {
-    Player mainPlayer = new Player();
-    mainPlayer.playerName = "Hag";
-    mainPlayer.playerHealth = 3;
-    mainPlayer.playerSpeed = 2;
-    mainPlayer.playerStrength = 2;
+  public string playerName { get; set; }
+  public int playerHealth { get; set; }
+  public int playerSpeed { get; set; }
+  public int playerStrength { get; set; }
+  public Player(string name, int health, int speed, int strength) {
+    this.playerName = name;
+    this.playerHealth = health;
+    this.playerSpeed = speed;
+    this.playerStrength = strength;
+  }
 }
 
 //The class for items
@@ -28,12 +27,9 @@ public class Items {
   }
 }
 
-}
 //This class here is the main one, and will stay. vvv
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine("Welcome to 'Text Adventure'");
-    Player.SpawnPlayer();
-
   }
 }
