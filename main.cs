@@ -4,22 +4,26 @@ using System.Linq;
 using System.Text.RegularExpressions;
 
 public class Player {
-  string playerName = "Hag";
-  int playerHealth = 3;
-  int playerSpeed = 0;
-  int playerStrength = 0;
+  public string playerName;
+  public int playerHealth;
+  public int playerSpeed;
+  public int playerStrength;
   //Yayy, my first time using classes.
+  static void SpawnPlayer() {
+    //code to execute
+  }
 }
 
+public class Items {
+  public string itemName;
+  public string itemDescription;
+  
+}
 //This class here is the main one, and will stay. vvv
 class MainClass {
   public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
-    //This is just a test, this will be removed vvv
-    Console.WriteLine("playerName = ");
-    Console.WriteLine("playerHealth = ");
-    Console.WriteLine("playerSpeed = ");
-    Console.WriteLine("playerStrength = ");
+    Console.WriteLine("Hello World");
+    Console.Write("What is your player's name?");
     Console.ReadLine();
   }
 }
