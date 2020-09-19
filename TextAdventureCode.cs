@@ -18,13 +18,10 @@ public class Player {
 }
 
 //The class for items
-public class Items {
-  public string itemName;
-  public string itemDescription;
+public class Item {
+  public string itemName { get; set; }
+  public string itemDescription { get; set; }
   //attempting to make an Item
-  public static void MakeItem() {
-
-  }
 }
 
 //This class here is the main one, and will stay. vvv
