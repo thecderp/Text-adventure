@@ -13,8 +13,9 @@ using System.Text.RegularExpressions;
         public Player(string name, int health, int speed, int strength) { 
             this.playerName = name;
             this.playerHealth = health;
-            this.playerSpeed = speed; this.playerStrength = strength; }
-    } 
+            this.playerSpeed = speed; this.playerStrength = strength; 
+        }
+     } 
     
     //The class for items
     public class Item { 
@@ -26,5 +27,6 @@ using System.Text.RegularExpressions;
     //This class here is the main one, and will stay. vvv
     class MainClass { 
         public static void Main (string[] args) {
-            Console.WriteLine("Welcome to 'Text Adventure'"); }
+            Console.WriteLine("Welcome to 'Text Adventure'"); 
+            }
         }
