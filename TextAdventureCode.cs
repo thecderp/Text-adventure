@@ -23,10 +23,17 @@ namespace TextAdventureCode
 		}
 		
 		//The class for items
-		public class Items {
-			public string itemName {}
-			public string itemDescription {}
+		public class Item {
+			public string itemName { get; set; }
+			public string itemDescription { get; set; }
 			//attempting to make an item
+		}
+		
+		public static void CreateItems() {
+		//Sword 
+			new Item() {
+			itemName = "Sword", 
+			itemDescription = "Sharpy and hurty"};
 		}
 		
 		//The main thingy
