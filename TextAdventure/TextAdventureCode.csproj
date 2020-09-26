@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="TextAdventureCode.cs" />
 	<Compile Include="Items.cs" />
+	<Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
