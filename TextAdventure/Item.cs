@@ -1,5 +1,5 @@
-namespace TextAdventureCode
-{
+namespace TextAdventureCode {
+	
 	//The class for items
 	public class Item {
 		public string itemName { get; set; }
