@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TextAdventureProgram/1.0.0": {
+        "runtime": {
+          "TextAdventureProgram.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TextAdventureProgram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
